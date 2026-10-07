@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { constitutionSections } from '@/constitution';
 import {
   ArrowRight, Check, ChevronDown, ChevronRight, Clock3, Download,
-  Facebook, FileText, Globe2, HeartHandshake, HeartPulse, Image as ImageIcon, Instagram, Linkedin, Mail, MapPin, Menu,
+  Facebook, FileText, Globe2, HeartHandshake, HeartPulse, Instagram, Linkedin, Mail, MapPin, Menu,
   MessageCircle, Pencil, Phone, Play, Plus, Search, Settings2, ShieldCheck, Sparkles, Stethoscope,
   Target, UserRound, Users, X, Youtube
 } from 'lucide-react';
