@@ -13,7 +13,7 @@ type Photo = { url: string; alt: string };
 type Project = { title: string; category: string; status: string; excerpt: string; image: Photo; location: string; impact: string; };
 
 const photos: Record<string, Photo> = {
-  hero: { url: 'https://images.pexels.com/photos/29941468/pexels-photo-29941468.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Two healthcare workers smiling in a hospital room' },
+  hero: { url: '/image.png', alt: 'Kerugoya County Referral Hospital building' },
   outreach: { url: 'https://images.pexels.com/photos/37285163/pexels-photo-37285163.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Healthcare professionals meeting community members' },
   children: { url: 'https://images.pexels.com/photos/34717769/pexels-photo-34717769.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Healthcare worker with children outdoors' },
   clinic: { url: 'https://images.pexels.com/photos/8248433/pexels-photo-8248433.jpeg?auto=compress&cs=tinysrgb&h=650&w=940', alt: 'Healthcare worker checking an elderly woman' },
